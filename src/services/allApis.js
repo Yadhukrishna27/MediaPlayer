@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const base_url="http://localhost:3000"
+const base_url="https://mpserver1-pnca.onrender.com"
 
 export const addVideos=async(data)=>{
     return await axios.post(`${base_url}/videos`,data)
